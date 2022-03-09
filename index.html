@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="./js/plugins/validetta/dist/validetta.min.css" rel="stylesheet">
+<link href="./js/plugins/confirm/dist/jquery-confirm.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <main class="valign-wrapper">
+        <div class="container">
+          <h5>TWeb </h5>
+  
+          <form id="formIndex" autocomplete="off">
+          <div class="row">
+            
+            <div class="col s12 m4 input-field">
+              <label for="boleta">correo</label>
+              <input type="text" id="correo" name="correo" data-validetta="required">
+            </div>
+  
+            <div class="col s12 m4 input-field">
+              <label for="contrasena">Contrase&ntilde;a</label>
+              <input type="password" id="contrasena" name="contrasena" data-validetta="required">
+            </div>
+  
+            <div class="col s12 m4 input-field">
+              <input type="submit" class="btn blue" style="width: 100%;" value="Entrar">
+            </div>
+          </div>
+          </form>
+  
+          <div class="row">
+            <p>Si no te haz registrado, hazlo <a href='./registro.html'>aqu&iacute;.</a></p>
+          </div>
+        </div>
+      </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./js/plugins/validetta/dist/validetta.min.js"></script>
+    <script src="./js/plugins/validetta/localization/validettaLang-es-ES.js"></script>
+    <script src="./js/plugins/confirm/dist/jquery-confirm.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
